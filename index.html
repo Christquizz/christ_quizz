@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<!-- ..............................Interface page d'acceuil........................................ -->
+<div id="page_acceuil">
+
+    <h2>Bienvenue sur la page d'acceuil du jeu "Disciple-Bérée"</h2>
+    <div id="paragraphe">
+        <p>Ce jeu a pour objectif de tester votre niveau de connaissance de la Bible
+            Il s'étend sur trois niveaux : DÉBUTANT - INTERMÉDIAIRE - EXPERT
+            Avant de commencer vous devez vous inscrire, à moins que ce ne soit pas
+            la première fois que vous jouiez à ce jeu</p>
+    </div>
+
+    <div id="radio">
+        <label>Est-ce la première fois que vous jouez à ce jeu ? :</label>
+        <input type="radio" size="40" name="anciennete" value="option1" checked="checked"/>
+        <label>OUI</label>
+        <input type="radio" size="40" name="anciennete" value="option2"/>
+        <label>NON</label>
+    </div>
+
+    <form name="form1">
+
+        <fieldset id="coordonnee1">
+
+            <legend>Veuillez vous inscrire SVP</legend>
+
+
+            <label>Entrez votre pseudo (username)<input id="nom" type="text" size="20" name="nom"/></label><br/>
+            <label>Entrez votre mot de passe<input id="pass" type="password"/></label><br/>
+            <button id="soumission">ENVOYER</button>
+            <button id="annuler">EFFACER</button>
+            <button id="debutant">DEBUTANT</button>
+            <button id="intermediaire">INTERMEDIAIRE</button>
+            <button id="expert">EXPERT</button>
+        </fieldset>
+    </form>
+</div>
+
+
+<!-- ..............................Interface Débutant........................................ -->
+<div id="debutant">
+
+    <h2>Bienvenue sur la page d'acceuil du jeu "Disciple-Bérée"</h2>
+
+
+    <form name="form_debutant">
+
+            <label>Entrez votre pseudo (username)<input id="nom" type="text" size="20" name="nom"/></label><br/>
+            <label>Entrez votre mot de passe<input id="pass" type="password"/></label><br/>
+            <button id="soumission">ENVOYER</button>
+            <button id="annuler">EFFACER</button>
+            <button id="debutant">DEBUTANT</button>
+            <button id="intermediaire">INTERMEDIAIRE</button>
+            <button id="expert">EXPERT</button>
+        </fieldset>
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
+</body>
+<head>
+    <title>jeu</title>
+    <link rel="stylesheet" href="style/form.css"/>
+    <link rel="stylesheet" href="style/main.css"/>
+</head>
+</html>
+
+
+
+
