@@ -1,0 +1,152 @@
+﻿body 
+{
+	background-color: #aaa;
+	/*background-color:#999999;	
+	
+	background: -moz-linear-gradient(top, #eee,  #aaa);
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#aaa));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#aaaaaa');*/
+	font-family: Verdana;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+form {
+	width: 50%;
+	margin: auto;
+	padding: 5px;
+	position: relative;
+	color: #fff;
+	border: 1px solid #da7c0c;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
+
+	
+h2,h4 
+{
+	text-align:center;
+	color:navy;
+	}	
+#paragraphe{
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+form label input {
+	margin-bottom: 50px;
+}
+
+form label input {
+	margin-bottom: 50px;
+}
+
+p{
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+}
+
+#radio{
+	width: 50%;
+	margin : 100px auto;
+	font-size: 20px;
+	font-weight: bold;
+}
+fieldset{
+	height: 400px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#pass{
+	margin-left: 75px;
+}
+#nom {
+	margin-top: 100px;
+}
+
+button{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Adobe Garamond Pro";
+}
+
+/*
+!*#soumission{
+
+	bottom: 80px;
+
+}
+
+#annuler {
+	bottom: 80px;
+	margin-left: 250px;
+}
+
+#debutant{
+	right: 20px;
+	top:15%;
+}
+
+#intermediaire{
+	right: 20px;
+	top:50%;
+}
+
+#expert{
+	right: 20px;
+	top: 75%;*!
+}
+*/
+
+/*
+form table td input.textbox {
+	width: 100%;
+	border: 1px solid #888;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+form table td input.textbox:focus {
+	border-color: #000;
+}
+form table td.button {
+	padding: 10px;
+	text-align: center;
+}
+form table td.button input {
+	color: #e8f0de;
+	border: solid 1px #538312;
+	cursor: pointer;
+	padding: 5px 20px;
+	background: #64991e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+form table td.button input:hover {
+	background: #538018;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+	background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+*/
