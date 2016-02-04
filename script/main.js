@@ -20,7 +20,7 @@ function principale (){
     div_avance.onclick = afficher_avance;
 }
 
-
+dfgh
 function afficher_dedutant (){
     document.getElementById('debutant').style.visibility = "visible"; // Afficher le bloc div
 }
