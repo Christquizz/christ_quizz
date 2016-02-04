@@ -77,13 +77,24 @@ fieldset{
 }
 
 button{
-	width: 200px;
-	height: 50px;
+	width: 170px;
+	height: 30px;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: "Adobe Garamond Pro";
 }
-
+.niveau1{
+	position: fixed;
+	right: 20px;
+	top:15%;}
+.niveau2{
+	position: fixed;
+	right: 20px;
+	top:25%;}
+.niveau3{
+	position: fixed;
+	right: 20px;
+	top:35%;}
 /*
 !*#soumission{
 
