@@ -36,14 +36,14 @@
             <label>Entrez votre mot de passe<input id="pass" type="password"/></label><br/>
             <button id="soumission">ENVOYER</button>
             <button id="annuler">EFFACER</button>
-            <button class="niveau1">DEBUTANT</button>
+            <button class="niveau1" id="niveau1_debutant" onclick="javascript:afficher_cacher('debutant');">DEBUTANT</button>
             <button class="niveau2">INTERMEDIAIRE</button>
             <button class="niveau3">AVANCÉ</button>
         </fieldset>
     </form>
 </div>
 <!-- ..............................Interface Débutant........................................ -->
-<div id="debutant">
+<div id="debutant" class="debutant">
     <h2>Niveau DÉBUTANT</h2>
     <form name="form_debutant">
         <label>Quel est le plus long verset de la Bible ?</label><br/>
