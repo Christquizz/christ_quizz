@@ -1,38 +1,41 @@
-﻿
+﻿window.onload = principale;
 
+function principale (){
+///**!/Pour masquer la division :
+    console.log('Page chargée');
+    $('#debutant').hide();
+    $('#Intermediaire').hide();
+    $('#avance').hide();
 
+    var div_debutant = document.getElementById('debutant');
+    console.log('div_debutant');
+    div_debutant.onclick = afficher_dedutant;
 
-//window.onload = principale;
+    var div_inter = document.getElementById('Intermediaire');
+    console.log('div_inter');
+    div_inter.onclick = afficher_Intermediaire;
 
-//function principale (){
-/////**!/Pour masquer la division :
-//    document.getElementById('debutant').style.display = none;
-//    console.log('Page chargée');
-//    var boutons = document.getElementsByTagName('BUTTON');
-//
-//    console.log(boutons.length);
-//
-//    // Maintenant on peut brancher les listeners
-//    boutons[0].onclick = ecrire;
-//}
-
-
-//function ecrire(){
-//    console.log(this);
-//}
-
-
-///Pour afficher la division :
-function afficher_cacher(id)
-{
-    if (document.getElementById(id).style.visibility == "hidden")
-    {
-        document.getElementById(id).style.visibility = "visible";
-        document.getElementById('niveau1_'+id).innerHTML = 'DEBUTANT';
-    }
-    else {
-        document.getElementById(id).style.visibility = "hidden";
-        document.getElementById('niveau1_'+id).innerHTML = 'DEBUTANT';
-    }
-    return true;
+    var div_avance = document.getElementById('avance');
+    console.log('div_avance');
+    div_avance.onclick = afficher_avance;
 }
+
+
+function afficher_dedutant (){
+    document.getElementById('debutant').style.visibility = "visible"; // Afficher le bloc div
+}
+function afficher_Intermediaire (){
+    document.getElementById('Intermediaire').style.visibility = "visible"; // Afficher le bloc div
+}
+function afficher_avance (){
+    document.getElementById('avance').style.visibility = "visible"; // Afficher le bloc div
+}
+
+
+
+
+
+
+/*
+document.getElementById('ma_div').style.visibility = "visible"; // Afficher le bloc div
+document.getElementById('ma_div').style.visibility = "hidden"; // Cacher le bloc div*/
