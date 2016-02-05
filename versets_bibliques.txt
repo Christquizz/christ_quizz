@@ -35,3 +35,31 @@ Qui périt pour avoir demandé en mariage sa belle-mère ?
 Dans quel pays était-il impossible de trouver un forgeron ?
 Qui fit du bouillon pour un ange ?
 Quel roi avait un sceptre d’or ?
+
+
+A faire
+
+- UTILISER TABS POUR LES ONGLETS (debutant - intermediaire - avance)
+- TABLEAU qst-reponse (q_niv1 = [
+                                ['Quel est le plus long verset de la Bible ?', rep0//rep1//rep2]
+                                ['Quel est le plus long verset de la Bible ?', rep0//rep1//rep2]
+                                ['Quel est le plus long verset de la Bible ?', rep0//rep1//rep2]
+                                ]
+
+var reps = q_niv1[2][1].split('//')
+
+for (var i = 0; i <= q_niv1[i].length; i++ ){
+    for (var j = 0; j <= q_niv1[i][j].length; j++ ){
+    var a_projeter = tirer au hasard sur reps
+    et supprimer la reponse tirée de la liste
+        }
+}
+
+
+- griser les onglets non utilisés ou les cacher
+- ajouter un onglet bilan
+- utiliser les fancy box pour la beauté (arrière plan)
+- créer les boutons de facon dynamique avec javascript
+- progress bar (compte à rebours)
+- pouvoir afficher le username du joueur
+
