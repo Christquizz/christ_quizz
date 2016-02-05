@@ -83,15 +83,15 @@ button{
 	font-weight: bold;
 	font-family: "Adobe Garamond Pro";
 }
-.niveau1{
+#niveau1{
 	position: fixed;
 	right: 20px;
 	top:15%;}
-.niveau2{
+#niveau2{
 	position: fixed;
 	right: 20px;
 	top:25%;}
-.niveau3{
+#niveau3{
 	position: fixed;
 	right: 20px;
 	top:35%;}

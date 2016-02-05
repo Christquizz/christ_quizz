@@ -1,4 +1,7 @@
-﻿window.onload = principale;
+﻿/*var bouton_debutant;
+var bouton_inter;
+var bouton_avance;
+window.onload = principale;
 
 function principale (){
 ///**!/Pour masquer la division :
@@ -7,35 +10,33 @@ function principale (){
     $('#Intermediaire').hide();
     $('#avance').hide();
 
-    var div_debutant = document.getElementById('debutant');
-    console.log('div_debutant');
-    div_debutant.onclick = afficher_dedutant;
+     bouton_debutant = document.getElementById('niveau1');
+    console.log('bouton_debutant');
+    bouton_debutant.onclick = afficher_debutant;
 
-    var div_inter = document.getElementById('Intermediaire');
-    console.log('div_inter');
-    div_inter.onclick = afficher_Intermediaire;
+     bouton_inter = document.getElementById('niveau2');
+    console.log('bouton_inter');
+    bouton_inter.onclick = afficher_Intermediaire;
 
-    var div_avance = document.getElementById('avance');
-    console.log('div_avance');
-    div_avance.onclick = afficher_avance;
-}
-
-dfgh
-function afficher_dedutant (){
-    document.getElementById('debutant').style.visibility = "visible"; // Afficher le bloc div
-}
-function afficher_Intermediaire (){
-    document.getElementById('Intermediaire').style.visibility = "visible"; // Afficher le bloc div
-}
-function afficher_avance (){
-    document.getElementById('avance').style.visibility = "visible"; // Afficher le bloc div
-}
+     bouton_avance = document.getElementById('niveau3');
+    console.log('bouton_avance');
+    bouton_avance.onclick = afficher_avance;
 
 
+    function afficher_debutant (){
+        document.getElementById('debutant').style.visibility = "visible"; // Afficher le bloc div
+    }
+    function afficher_Intermediaire (){
+        bouton_inter.style.visibility = "visible"; // Afficher le bloc div
+    }
+    function afficher_avance (){
+        bouton_avance.style.visibility = "visible"; // Afficher le bloc div
+    }
+}*/
 
 
 
 
-/*
-document.getElementById('ma_div').style.visibility = "visible"; // Afficher le bloc div
-document.getElementById('ma_div').style.visibility = "hidden"; // Cacher le bloc div*/
+
+
+
