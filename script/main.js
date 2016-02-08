@@ -222,7 +222,7 @@ function createCookie(cookie_name, cookie_value, days)
 }
 
 
-//JavaScript Progress Bar
+//JavaScript Progress Bar....
 var debut_progress_bar = document.getElementById('debut');
 console.log(debut_progress_bar);
 debut_progress_bar.onclick = move;
