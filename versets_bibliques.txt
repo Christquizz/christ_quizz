@@ -39,7 +39,7 @@ Quel roi avait un sceptre d’or ?
 
 A faire
 
-- UTILISER TABS POUR LES ONGLETS (debutant - intermediaire - avance)
+- UTILISER TABS POUR LES ONGLETS (debutant - intermediaire - avance) (OK)
 - TABLEAU qst-reponse (q_niv1 = [
                                 ['Quel est le plus long verset de la Bible ?', rep0//rep1//rep2]
                                 ['Quel est le plus long verset de la Bible ?', rep0//rep1//rep2]
