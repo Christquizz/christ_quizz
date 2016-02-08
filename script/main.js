@@ -58,6 +58,7 @@ for (var i = 0; i <= questionnaire_niv1[i].length; i++ ){
 
 
 
+/*
 
 
 
@@ -87,139 +88,61 @@ function createNewQuiz(){
     question_2[2] = "13";
     question_2[3] = "14";
     question_2[4] = "15";
-    28
-
-    29
-
     question_3[0] = 2; // multi-choice
-    31
     question_3[1] = "Choose at least two disciplines that Australia obtained gold medals.";
-    32
     question_3[2] = "Basketball";
-    33
     question_3[3] = "Diving";
-    34
     question_3[4] = "Swimming";
-    35
     question_3[5] = "Rowing";
-    36
     question_3[6] = "3,4,5"; //answer index
-    37
-
-    38
     var question_4 = new Array();
-    39
     question_4[0] = 2; // multi-choice
-    40
     question_4[1] = "Choose at least two basketball players of USA team.";
-    41
     question_4[2] = "KIDD Jason";
-    42
     question_4[3] = "RUBIO Ricky";
-    43
     question_4[4] = "BOSH Chris";
-    44
     question_4[5] = "PRIGIONI Pablo";
-    45
     question_4[6] = "2,4"; //answer index
-    46
-
-    47
     var question_5 = new Array();
-    48
     question_5[0] = 3; // writing
-    49
     question_5[1] = "Choose three disciplines that Australia obtained gold medals.";
-    50
     question_5[2] = "Athletics, Basketball, Rowing, Sailing, Diving, Softball, Swimming";
-    51
     question_5[3] = "Athletics, Rowing, Sailing, Diving, Swimming";// Answers
-    52
-
-    53
     var question_6 = new Array();
-    54
     question_6[0] = 3; // writing
-    55
     question_6[1] = "Choose at least three swimmers.";
-    56
     question_6[2] = "MURPHY Patrick, RYAN Matt, McKENZIE-McHARG Cameron, MARBURG James, HACKETT Grant, BRITS Grant, FFROST Nick, PALMER Kirk, HEGERTY Francis, BRODIE Leith";
-    57
     question_6[3] = "MURPHY Patrick, HACKETT Grant, BRITS Grant, FFROST Nick, PALMER Kirk, BRODIE Leith";// Answers
-    58
-
-    59
-
-    60
-
-    61
     var questionSet = new Array(6);
-    62
     questionSet[0] = question_1;
-    63
     questionSet[1] = question_2;
-    64
     questionSet[2] = question_3;
-    65
     questionSet[3] = question_4;
-    66
     questionSet[4] = question_5;
-    67
     questionSet[5] = question_6;
-    68
-
-    69
-
-    70
-
-    71
     registerRandomQuestion();
-    72
 }
-73
-
-74
 function registerRandomQuestion()
-75
 {
-    76
     var totalQuestion = 6;
-    77
     for(rand = Math.floor(Math.random()*questionSet.length); rand>=0; rand = Math.floor((Math.random()*questionSet.length ){
-        78
         for(i = rand; i<sel_questions.length; i++){
-            79
             if(sel_questions[i] == rand){
-                80
                 break;
-                81
             }
-            82
         else{
-                83
                 sel_questions[sel_questions.length] = rand;
-                84
                 createCookie(question_name, question_value, 1);
-                85
                 return;
-                86
             }
-            87
         }
-        88
     }
-    89
 }
-90
-
-91
 function createCookie(cookie_name, cookie_value, days)
-92
 {
-    93
     document.cookie = cookie_value;
-    94
 }
+*/
 
 
 //JavaScript Progress Bar....
