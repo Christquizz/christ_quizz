@@ -8,84 +8,111 @@
 
 <body>
 <div id="tabs">
-<ul>
-    <li><a href="#fragment-1"><span>ACCUEIL</span></a></li>
-    <li><a href="#fragment-2"><span>DEBUTANT</span></a></li>
-    <li><a href="#fragment-3"><span>INTERMEDIAIRE</span></a></li>
-    <li><a href="#fragment-4"><span>AVANCÉ</span></a></li>
-</ul>
+    <ul>
+        <li><a href="#fragment-1"><span>ACCUEIL</span></a></li>
+        <li><a href="#fragment-2"><span id="debut">DEBUTANT</span></a></li>
+        <li><a href="#fragment-3"><span id="debut1">INTERMEDIAIRE</span></a></li>
+        <li><a href="#fragment-4"><span id="debut2">AVANCÉ</span></a></li>
+        <li><a href="#fragment-5"><span>BILAN</span></a></li>
+    </ul>
 
-<!-- ..............................Interface page d'acceuil........................................ -->
-<div id="fragment-1">
-    <h2>Bienvenue sur la page d'acceuil du jeu "Disciple-Bérée"</h2>
-    <div id="paragraphe">
-        <p>Ce jeu a pour objectif de tester votre niveau de connaissance de la Bible
-            Il s'étend sur trois niveaux : DÉBUTANT - INTERMÉDIAIRE - EXPERT
-            Avant de commencer vous devez vous inscrire, à moins que ce ne soit pas
-            la première fois que vous jouiez à ce jeu</p>
+    <!-- ..............................Interface page d'acceuil........................................ -->
+    <div id="fragment-1">
+
+        <div id="paragraphe">
+            <p>Ce jeu a pour objectif de tester votre niveau de connaissance de la Bible
+                Il s'étend sur trois niveaux : DÉBUTANT - INTERMÉDIAIRE - EXPERT
+                Avant de commencer vous devez vous inscrire, à moins que ce ne soit pas
+                la première fois que vous jouiez à ce jeu</p>
+        </div>
+        <div id="radio">
+            <label>Est-ce la première fois que vous jouez à ce jeu ? :</label><br/>
+            <input type="radio" size="40" name="anciennete" value="option1" checked="checked"/>
+            <label>OUI</label>
+            <input type="radio" size="40" name="anciennete" value="option2"/>
+            <label>NON</label>
+        </div>
+
+        <form name="form1">
+
+            <fieldset id="coordonnee1">
+
+                <legend>Veuillez vous inscrire SVP</legend>
+
+
+                <label>Entrez votre pseudo (username)<input id="nom" type="text" size="20" name="nom"/></label><br/>
+                <label>Entrez votre mot de passe<input id="pass" type="password"/></label><br/>
+                <button id="soumission">ENVOYER</button>
+                <button id="annuler">EFFACER</button>
+            </fieldset>
+        </form>
     </div>
-    <div id="radio">
-        <label>Est-ce la première fois que vous jouez à ce jeu ? :</label><br/>
-        <input type="radio" size="40" name="anciennete" value="option1" checked="checked"/>
-        <label>OUI</label>
-        <input type="radio" size="40" name="anciennete" value="option2"/>
-        <label>NON</label>
+    <!-- ..............................Interface Débutant........................................ -->
+    <div id="fragment-2">
+        <!--Progress Bar-->
+        <div class="myProgress">
+            <div class="myBar"></div>
+        </div>
+
+        <h2>Niveau DÉBUTANT</h2>
+        <form name="form_debutant">
+            <label>Quel est le plus long verset de la Bible ?</label><br/>
+            <button id="r1">Esther 8 : 9</button>
+            <br/>
+            <button id="r2">psaumes 5 : 9</button>
+            <br/>
+            <button id="r3">Job 8 : 9</button>
+            <br/>
+            <button id="r4">Matthieu 4 : 9</button>
+        </form>
     </div>
+    <!-- ..............................Interface Intermédiaire........................................ -->
+    <div id="fragment-3">
+        <!--Progress Bar-->
+        <div class="myProgress">
+            <div class="myBar"></div>
+        </div>
 
-    <form name="form1">
+        <h2>Niveau INTERMEDIAIRE</h2>
+        <form name="form_intermediaire">
+            <label>Trouvez le mot manquant</label><br/>
+            <label>Dieu a tant aimé le monde qu'il a donné son fils .......... afin que quiconque croit en lui ne
+                périsse pas mais qu'il ait la vie éternelle</label><br/>
+            <input type="text" size="20" name="txt_inter"/>
+        </form>
 
-        <fieldset id="coordonnee1">
+    </div>
+    <!-- ..............................Interface Débutant........................................ -->
+    <div id="fragment-4">
+        <!--Progress Bar-->
+        <div class="myProgress">
+            <div class="myBar"></div>
+        </div>
 
-            <legend>Veuillez vous inscrire SVP</legend>
+        <h2>Niveau AVANCÉ</h2>
+        <form name="form_avance">
+            <label>Trouvez la référence du verset suivant</label><br/>
+            <label>il y'a un seul médiateur entre Dieu et les hommes, Jésus Christ homme</label><br/>
+            <button>Timothée 2 : 5</button>
+            <br/>
+            <button>psaumes 5 : 9</button>
+            <br/>
+            <button>Job 8 : 9</button>
+            <br/>
+            <button>Matthieu 4 : 9</button>
+        </form>
+    </div>
+    <div id="fragment-5">
 
 
-            <label>Entrez votre pseudo (username)<input id="nom" type="text" size="20" name="nom"/></label><br/>
-            <label>Entrez votre mot de passe<input id="pass" type="password"/></label><br/>
-            <button id="soumission">ENVOYER</button>
-            <button id="annuler">EFFACER</button>
-        </fieldset>
-     </form>
-</div>
-<!-- ..............................Interface Débutant........................................ -->
-<div id="fragment-2">
-    <h2>Niveau DÉBUTANT</h2>
-    <form name="form_debutant">
-        <label>Quel est le plus long verset de la Bible ?</label><br/>
-        <button id="r1">Esther 8 : 9</button><br/>
-        <button id="r2">psaumes 5 : 9</button><br/>
-        <button id="r3">Job 8 : 9</button><br/>
-        <button id="r4">Matthieu 4 : 9</button>
-    </form>
-</div>
-<!-- ..............................Interface Intermédiaire........................................ -->
-<div id="fragment-3">
-    <h2>Niveau INTERMEDIAIRE</h2>
-    <form name="form_intermediaire">
-        <label>Trouvez le mot manquant</label><br/>
-        <label>Dieu a tant aimé le monde qu'il a donné son fils .......... afin que quiconque croit en lui ne périsse pas mais qu'il ait la vie éternelle</label><br/>
-        <input type="text" size="20" name="txt_inter"/>
-    </form>
-
-</div>
-<!-- ..............................Interface Débutant........................................ -->
-<div id="fragment-4">
-    <h2>Niveau AVANCÉ</h2>
-    <form name="form_avance">
-        <label>Trouvez la référence du verset suivant</label><br/>
-        <label>il y'a un seul médiateur entre Dieu et les hommes, Jésus Christ homme</label><br/>
-        <button>Timothée 2 : 5</button><br/>
-        <button>psaumes 5 : 9</button><br/>
-        <button>Job 8 : 9</button><br/>
-        <button>Matthieu 4 : 9</button>
-    </form>
-</div>
+    </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="script/main.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script>
-    $( "#tabs" ).tabs();
+    $("#tabs").tabs();
 </script>
 
 </body>
