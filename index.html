@@ -48,13 +48,14 @@
 </div>
 <!-- ..............................Interface Débutant........................................ -->
 <div id="fragment-2">
-    <h2>Niveau DÉBUTANT</h2>
-    <form name="form_debutant">
-        <label>Quel est le plus long verset de la Bible ?</label><br/>
-        <button id="r1">Esther 8 : 9</button><br/>
-        <button id="r2">psaumes 5 : 9</button><br/>
-        <button id="r3">Job 8 : 9</button><br/>
-        <button id="r4">Matthieu 4 : 9</button>
+    <form name="form_debutant" id="debutant">
+        <button id="bouton_debuter">Clickez ici si vous êtes prêt</button><br/>
+        <button id="bouton_qst_suivante">Suivant</button><br/>
+        <!--<label>Quel est le plus long verset de la Bible ?</label><br/>
+        <button id="r1"></button><br/>
+        <button id="r2"></button><br/>
+        <button id="r3"></button><br/>
+        <button id="r4">Matthieu 4 : 9</button>-->
     </form>
 </div>
 <!-- ..............................Interface Intermédiaire........................................ -->
@@ -85,7 +86,9 @@
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script>
-    $( "#tabs" ).tabs();
+    $( "#tabs" ).tabs({
+        disabled:[2,3]
+    });
 </script>
 
 </body>
