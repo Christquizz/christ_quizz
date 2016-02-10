@@ -1,4 +1,4 @@
-﻿/*
+﻿﻿/*
 body
 {
 	background-color: #aaa;
@@ -175,7 +175,6 @@ form table td.button input:hover {
 	height: 30px;
 	position: relative;
 	background-color: #ddd;
-	margin-bottom: 30px;
 }
 
 .myBar {
@@ -186,15 +185,4 @@ form table td.button input:hover {
 }
 .chute{
 	background-color: red;
-}
-.chute1{
-	background-color: #4CAF50;
-}
-input{
-	margin: 20px;
-
-}
-.libelle_inter{
-
-	margin-bottom: 30px;
 }
